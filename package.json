@@ -1,0 +1,33 @@
+{
+  "name": "line-butler",
+  "version": "0.0.1",
+  "description": "Notify informations via LINE",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack",
+    "upload": "gapps upload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Slowhand0309/line-butler.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Slowhand0309",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Slowhand0309/line-butler/issues"
+  },
+  "homepage": "https://github.com/Slowhand0309/line-butler#readme",
+  "dependencies": {
+    "node-google-apps-script": "^1.1.5"
+  },
+  "devDependencies": {
+    "dotenv": "^2.0.0",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "webpack": "^1.14.0"
+  }
+}

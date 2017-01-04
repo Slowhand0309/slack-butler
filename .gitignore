@@ -35,3 +35,11 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# Project ignore
+src/
+.env
+gapps.config.json
+
+# Mac OS
+.DS_Store
