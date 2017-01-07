@@ -4,6 +4,7 @@
   "description": "Notify informations via Slack",
   "main": "main.js",
   "scripts": {
+    "init": "gapps init",
     "build": "webpack",
     "upload": "gapps upload"
   },
