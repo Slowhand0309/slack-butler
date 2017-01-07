@@ -1,7 +1,7 @@
 {
-  "name": "line-butler",
+  "name": "slack-butler",
   "version": "0.0.1",
-  "description": "Notify informations via LINE",
+  "description": "Notify informations via Slack",
   "main": "main.js",
   "scripts": {
     "build": "webpack",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Slowhand0309/line-butler.git"
+    "url": "git+https://github.com/Slowhand0309/slack-butler.git"
   },
   "keywords": [
     "bot"
@@ -17,9 +17,9 @@
   "author": "Slowhand0309",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Slowhand0309/line-butler/issues"
+    "url": "https://github.com/Slowhand0309/slack-butler/issues"
   },
-  "homepage": "https://github.com/Slowhand0309/line-butler#readme",
+  "homepage": "https://github.com/Slowhand0309/slack-butler#readme",
   "dependencies": {
     "node-google-apps-script": "^1.1.5"
   },

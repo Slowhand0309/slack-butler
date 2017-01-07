@@ -1,2 +1,2 @@
-# line-butler
-Notify informations via LINE:bowtie:
+# slack-butler
+Notify informations via Slack:bowtie:
