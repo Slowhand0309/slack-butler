@@ -25,6 +25,7 @@ module.exports = {
         exclude: /(node_modules|bower_components)/,
         query: {
           multiple: [
+            { search: '$MORNING_MESSAGE', replace: process.env.MORNING_MESSAGE },
             { search: '$TIME_ZONE', replace: process.env.TIME_ZONE },
             { search: '$CALENDAR_ID', replace: process.env.CALENDAR_ID },
             { search: '$EVENT_NOTIFY_TITLE', replace: process.env.EVENT_NOTIFY_TITLE },
@@ -32,6 +33,8 @@ module.exports = {
             { search: '$SLACK_CHANNEL', replace: process.env.SLACK_CHANNEL },
             { search: '$SLACK_USERNAME', replace: process.env.SLACK_USERNAME },
             { search: '$SLACK_ICONURL', replace: process.env.SLACK_ICONURL },
+            { search: '$SLACK_SENT_TOKEN', replace: process.env.SLACK_SENT_TOKEN },
+            { search: '$SLACK_TRIGGER_WORD', replace: process.env.SLACK_TRIGGER_WORD },
             { search: '$TRELLO_NOTIFY_TITLE', replace: process.env.TRELLO_NOTIFY_TITLE },
             { search: '$TRELLO_USER', replace: process.env.TRELLO_USER },
             { search: '$TRELLO_KEY', replace: process.env.TRELLO_KEY },
