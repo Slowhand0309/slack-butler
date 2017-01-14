@@ -17,6 +17,8 @@ Butler notifies Slack of the following contents:
 
 - :fork_and_knife: Suggest for today's dinner menu
 
+- :left_right_arrow: Translate using google translation
+
 ## Licence
 
 [MIT](https://opensource.org/licenses/MIT)

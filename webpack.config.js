@@ -39,6 +39,8 @@ module.exports = {
             { search: '$SLACK_ICONURL', replace: process.env.SLACK_ICONURL },
             { search: '$SLACK_SENT_TOKEN', replace: process.env.SLACK_SENT_TOKEN },
             { search: '$SLACK_TRIGGER_WORD', replace: process.env.SLACK_TRIGGER_WORD },
+            { search: '$TRANSLATE_FROM', replace: process.env.TRANSLATE_FROM },
+            { search: '$TRANSLATE_TO', replace: process.env.TRANSLATE_TO },
             { search: '$TRELLO_NOTIFY_TITLE', replace: process.env.TRELLO_NOTIFY_TITLE },
             { search: '$TRELLO_USER', replace: process.env.TRELLO_USER },
             { search: '$TRELLO_KEY', replace: process.env.TRELLO_KEY },
