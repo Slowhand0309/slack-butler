@@ -47,7 +47,9 @@ module.exports = {
             { search: '$TRELLO_TOKEN', replace: process.env.TRELLO_TOKEN },
             { search: '$TRELLO_LISTID', replace: process.env.TRELLO_LISTID },
             { search: '$WEATHER_TITLE', replace: process.env.WEATHER_TITLE },
-            { search: '$WEATHER_CITYID', replace: process.env.WEATHER_CITYID }
+            { search: '$WEATHER_CITYID', replace: process.env.WEATHER_CITYID },
+            { search: '$RECIPE_TITLE', replace: process.env.RECIPE_TITLE },
+            { search: '$RECIPE_APPID', replace: process.env.RECIPE_APPID }
           ]
         }
       }
