@@ -43,6 +43,7 @@ module.exports = {
             { search: '$TRANSLATE_FROM', replace: process.env.TRANSLATE_FROM },
             { search: '$TRANSLATE_TO', replace: process.env.TRANSLATE_TO },
             { search: '$TRELLO_NOTIFY_TITLE', replace: process.env.TRELLO_NOTIFY_TITLE },
+            { search: '$TRELLO_NOTASK', replace: process.env.TRELLO_NOTASK },
             { search: '$TRELLO_USER', replace: process.env.TRELLO_USER },
             { search: '$TRELLO_KEY', replace: process.env.TRELLO_KEY },
             { search: '$TRELLO_TOKEN', replace: process.env.TRELLO_TOKEN },
