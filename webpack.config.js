@@ -32,6 +32,7 @@ module.exports = {
             { search: '$MORNING_MESSAGE', replace: process.env.MORNING_MESSAGE },
             { search: '$TIME_ZONE', replace: process.env.TIME_ZONE },
             { search: '$CALENDAR_ID', replace: process.env.CALENDAR_ID },
+            { search: '$CALENDAR_NOEVENT', replace: process.env.CALENDAR_NOEVENT },
             { search: '$EVENT_NOTIFY_TITLE', replace: process.env.EVENT_NOTIFY_TITLE },
             { search: '$SLACK_URL', replace: process.env.SLACK_URL },
             { search: '$SLACK_CHANNEL', replace: process.env.SLACK_CHANNEL },
