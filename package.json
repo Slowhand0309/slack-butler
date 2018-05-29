@@ -31,6 +31,6 @@
     "dotenv": "^5.0.0",
     "gas-webpack-plugin": "^0.2.1",
     "string-replace-loader": "^2.0.0",
-    "webpack": "^4.0.0"
+    "webpack": "^4.10.0"
   }
 }
